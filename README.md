@@ -1,5 +1,6 @@
-# portfolio
+# sena's portfolio
  sunyoung's portfolio
+ 
  
 #### 포트폴리오 미리보기
 <img src="https://user-images.githubusercontent.com/65889734/151301532-57b2d4dd-fcfb-4774-98e7-25badf054025.gif"  width="700" height="500">
