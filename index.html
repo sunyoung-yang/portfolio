@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sunyoung's Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio for world-renowned software engineer Sunyoung"
+    />
+    <meta name="author" content="sena" />
+    <link rel="icon" type="image/png" href="imgs/favicons.png" />
+    <script
+      src="https://kit.fontawesome.com/9eb162ac0d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="navbar">
+      <div class="navbar__logo">
+        <i class="far fa-user-circle"></i>
+        <a href="#">HEY SUNYOUNG!</a>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__menu__item active" data-link="#home">Home</li>
+        <li class="navbar__menu__item" data-link="#about">About</li>
+        <li class="navbar__menu__item" data-link="#testimonials">Certificate</li>
+        <li class="navbar__menu__item" data-link="#skills">Skills</li>
+        <li class="navbar__menu__item" data-link="#work">My work</li>
+        <li class="navbar__menu__item" data-link="#contact">Contact</li>
+      </ul>
+      <!-- Toggle button -->
+      <button class="navbar__toggle-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+      <div class="home__container">
+        <img
+          src="imgs/sena_profile.jpg"
+          alt="Sunyoung's profile photo"
+          class="home__avatar"/> 
+        <h1 class="home__title">Hello, <br />I'm Sunyoung Yang</h1>
+        <h3 class="home__description">
+          백엔드 와 프런트엔드 기술을 보유하고 있는 개발자 입니다.
+        </h3>
+        <button class="home__contact">Contact Me</button>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section section__container">
+      <h1>About me</h1>
+      <p>
+       현직에 필요한  여러가지 툴과 언어를 익히기 위해 공부하고 있습니다.
+      </p>
+      <div class="about__majors">
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-html5"></i>
+          </div>
+          <h2 class="major__title">Front-end</h2>
+          <div class="major__description">
+            HTML, CSS, JavaScript
+            <br />
+          </div>
+        </div>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-java"></i>
+          </div>
+          <h2 class="major__title">Back-end</h2>
+          <p class="major__description">
+            Java
+            <br /> Oracle, Mysql
+          </p>
+        </div>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-linux"></i>
+          </div>
+          <h2 class="major__title">Server</h2>
+          <p class="major__description">
+            Linux
+          </p>
+        </div>
+      </div>
+      <div class="about__jobs">
+        <div class="job">
+          <img
+            src="imgs/jobs/tmax.png"
+            alt="tmax"
+            class="job__logo"
+          />
+          <div class="job__description">
+            <p class="job__name">
+              티맥스클라우드 - QA매니저
+            </p>
+            <p class="job__period">2020 Dec - 2021 June</p>
+           </div>
+        </div>
+        <br/>
+          <div class="job">
+            <img
+              src="imgs/jobs/bitcamp.jpg"
+              alt="bitcamp"
+              class="job__logo"
+            />
+           <div class="job__description">
+            <p class="job__name">
+              JAVA 개발자 과정
+            </p>
+            <p class="job__period">2020 May - 2020 Oct</p>
+           </div>
+          </div>
+          <br/>
+          <div class="job">
+            <img
+              src="imgs/jobs/mnsoft.png"
+              alt="mnsoft"
+              class="job__logo"
+            />
+           <div class="job__description">
+            <p class="job__name">
+              Hyundai MnSoft 독일 지사 - 인턴
+            </p>
+            <p class="job__period">2019 Aug - 2019 Dec</p>
+           </div>
+          </div>
+          <br/>
+          <div class="job">
+            <img
+              src="imgs/jobs/incheon_uni.png"
+              alt="incheon_uni"
+              class="job__logo"
+            />
+            <div class="job__description">
+              <p class="job__name">
+                정보통신 공학과 전공
+              </p>
+              <p class="job__period">2014 March - 2020 Aug</p>
+             </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="section">
+      <div class="section__container">
+       <h1>Certificate</h1>
+       <h3>See what I get for work</h3>
+       <div class="testimonials">
+         <div class="testimonial">
+           <img
+             src="imgs/testimonial/network-main.png"
+             alt="People"
+             class="testimonial__avatar"
+           />
+           <div class="testimonial__speech-bubble">
+             <p>
+              <p class="name"><a href="">컴퓨터 활용능력 1급</a> / 2016.04</p>
+              <p class="name"><a href="">정보처리기사 필기 합격</a> / 실기 시험 예정</p>
+              <p class="name"><a href="">SQLD</a> / 2021.12</p>
+              <br/>
+              정보통신 공학을 전공하며 IT 관련 자격증을 취득하였습니다.
+              앞으로도 꾸준히 공부하며 IT 관련 업무를 성실히 수행하겠습니다. <br/>
+            </p>
+           </div>
+         </div>
+         <div class="testimonial">
+           <div class="testimonial__speech-bubble">
+             <p>
+              <p class="name"><a href="">TOEIC SPEAKING Lv.7</a> / 2020.03</p>
+              <br><br>
+              영어 및 스페인어 회화에 관심이 많아 꾸준히 영어를 공부하고 있으며 
+              비즈니스 영어를 배우며 업무에 도움이 되도록 노력하겠습니다. 
+             </p>
+           </div>
+           <img
+           src="imgs/testimonial/language.png"
+           alt="People"
+           class="testimonial__avatar"
+         />
+         </div>
+       </div>
+      </div>
+       </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="section__container">
+        <h1>Skills</h1>
+        <h2>Skills & Attributes</h2>
+        <p>
+          JAVA, Java script 등을 배우며 비즈니스 로직의 원리를 익혔습니다. <br/>
+          MVC패턴을 바탕으로 금융 관련 프로젝트를 구현하였으며, 
+          HTML, CSS, Java script를 이용해 원 그래프, 레이아웃의 구조를 파악하였습니다.<br/>
+          또한, 클라우드 QA매니저로 재직하며 LINUX 네트워크의 이해도를 높였습니다. 
+          현재는 네트워크와 코딩 기술을 익히고 있습니다.
+        </p>
+        <div class="skillset">
+            <div class="skillset__left">
+              <h3 class="skillset__title">Skills</h3>
+              <div class="skill">
+                <div class="skill__description">
+                  <span>JAVA</span>
+                  <span>90%</span>
+                </div>
+                <div class="skill__bar">
+                  <div class="skill__value" style="width: 90%;"></div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="skill__description">
+                  <span>HTML</span>
+                  <span>90%</span>
+                </div>
+                <div class="skill__bar">
+                  <div class="skill__value" style="width: 90%;"></div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="skill__description">
+                  <span>CSS</span>
+                  <span>80%</span>
+                </div>
+                <div class="skill__bar">
+                  <div class="skill__value" style="width: 80%;"></div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="skill__description">
+                  <span>JavaScript</span>
+                  <span>70%</span>
+                </div>
+                <div class="skill__bar">
+                  <div class="skill__value" style="width: 70%;"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skillset__right">
+              <div class="tools">
+                <h3 class="skillset__title">Tools</h3>
+                <ul class="tools__list">
+                  <li><span>IntelliJ</span></li>
+                  <li><span>Visual Studio Code</span></li>
+                  <li><span>Spring</span></li>
+                </ul>
+              </div>
+              <div class="etc">
+                <h3 class="skillset__title">Etc</h3>
+                <ul class="etc__list">
+                  <li><span>Git</span></li>
+                </ul>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work -->
+    <section id="work" class="section">
+     <div class="section__container">
+      <h1>My work</h1>
+      <h3>Projects</h3>
+      <div class="work__categories">
+        <button class="category__btn selected" data-filter="*">
+          All <span class="category__count">2</span>
+        </button>
+        <button class="category__btn" data-filter="front-end">
+          Front-end <span class="category__count">1</span>
+        </button>
+        <button class="category__btn" data-filter="back-end">
+          Back-end <span class="category__count">1</span>
+        </button>
+      </div>
+      <div class="work__projects">
+        <a href="https://github.com/sunyoung-yang/portfolio.git" class="project" target="blank" data-type="front-end">
+          <img
+            src="imgs/projects/front-end.png"
+            alt="front-end"
+            class="project__img"
+          />
+          <div class="project__description">
+            <h3>Portfolio</h3>
+            <span> with HTML, CSS, JavaScript </span>
+          </div>
+        </a>
+        </a>
+        <a href="https://github.com/inhye-world/invest_together.git" class="project" target="blank" data-type="back-end">
+          <img class="project__img" src="imgs/projects/invest_together.png" alt="" />
+          <div class="project__description">
+            <h3>Invest together</h3>
+            <span> 오픈소스 api, Java, Oracle 로 구현된 자산관리 웹 사이트</span>
+          </div>
+        </a>
+        <!--
+        <a href="" class="project" data-type="back-end">
+          <img class="project__img" src="imgs/projects/game.png" alt="" />
+          <div class="project__description">
+            <h3>Project</h3>
+            <span>Explanation</span>
+          </div>
+        </a>
+        -->
+      </div>
+     </div>
+    </section>
+
+    
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <h1 class="contact__title">Let's talk</h1>
+      <h2 class="contact__email">yangsun6750@gmail.com</h2>
+      <div class="contact__links">
+        <a href="https://github.com/sunyoung-yang" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <p class="contact__rights">
+        sunyoung world - All rights reserved
+      </p>
+    </section>
+
+    <!-- Arrow up -->
+    <button class="arrow-up">
+      <i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i>
+    </button>
+  </body>
+</html>
